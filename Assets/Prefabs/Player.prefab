@@ -160,3 +160,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   yVelocity: 5
   rotationSpeed: 5
+  jumpSFX: {fileID: 8300000, guid: 8650c67654e061b4b95bb5fb5664439b, type: 3}
+  dieSFX: {fileID: 8300000, guid: 543a7887879ffd246a31c48cd354ac48, type: 3}

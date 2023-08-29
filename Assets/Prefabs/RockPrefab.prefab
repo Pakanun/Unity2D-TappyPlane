@@ -365,3 +365,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c34466ec9daf094aa0d9eb6bd6e15aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scoreSFX: {fileID: 8300000, guid: 7024cef2a9fc7ea43bf0ec1843a14ade, type: 3}

@@ -23,8 +23,8 @@ public class Player : MonoBehaviour
     {
         if (Mouse.current.leftButton.wasPressedThisFrame)
         {
-            rb.velocity = Vector2.up * yVelocity;
             AudioSource.PlayClipAtPoint(jumpSFX, Camera.main.transform.position);
+            rb.velocity = Vector2.up * yVelocity;
         }
 
         if(Input.touchCount > 0)
@@ -33,8 +33,8 @@ public class Player : MonoBehaviour
             
             if(touch.phase == UnityEngine.TouchPhase.Began)
             {
-                rb.velocity = Vector2.up * yVelocity;
                 AudioSource.PlayClipAtPoint(jumpSFX, Camera.main.transform.position);
+                rb.velocity = Vector2.up * yVelocity;
             }
         }
     }
